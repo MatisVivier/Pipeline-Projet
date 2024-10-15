@@ -5,7 +5,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                 // Cloner le repository depuis GitHub
-                git 'https://github.com/MatisVivier/jetkins-pipeline.git'
+                git 'https://github.com/MatisVivier/Pipeline-Projet.git'
             }
         }
         stage('Build') {
